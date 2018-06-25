@@ -3,7 +3,10 @@ def simple_curfew_checker(time)
 end
 
 def curfew_checker(time)
-  # code goes here
+  if time < 11
+    "You still have time."
+   else 
+     "CURFEW!"
 end
 
 def complex_curfew_checker(time)
