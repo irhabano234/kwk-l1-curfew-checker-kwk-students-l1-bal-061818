@@ -11,12 +11,9 @@ end
 
 def complex_curfew_checker(time)
   if time > 11
-    puts "It's past curfew!"
   elsif time = 11
-  puts "Time to go back."
-else 
-  puts "Still have time."
-end 
+  else 
+ end 
 end
 
 def deluxe_curfew_checker(time)
